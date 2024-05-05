@@ -72,3 +72,45 @@ li {
 nav {
     margin-top: 159px;
 }
+
+/*top section*/
+main {
+    margin-top: 96px;
+}
+
+.section-top {
+    margin: 0 24px;
+}
+
+.top-bg {
+    width: 100%;
+}
+
+.top-text {
+    padding: 0 24px;
+}
+
+h2 {
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 32px;
+    font-weight: 300;
+    line-height: 1;
+    text-align: center;
+    color: #000;
+    padding-top: 48px;
+}
+
+p {
+    margin-top: 16px;
+    opacity: 0.5;
+    font-family: "Alata", sans-serif;
+    font-size: 15px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.67;
+    letter-spacing: normal;
+    text-align: center;
+    color: #000;
+  
+}
