@@ -8,6 +8,7 @@ header {
     padding: 40px 24px 222px;
     background-size: 100%;
     background-repeat: no-repeat;
+    position: relative;
 }
 
 .logo {
@@ -32,4 +33,42 @@ h1 {
     font-weight: 300;
     line-height: 0.95;
     color: #fff;
+}
+
+
+.dropDown-menu {
+    background-color: #000000;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    padding: 40px 24px 0;
+    display: none;
+}
+
+.icon-close {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+ul {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+
+li {
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 24px;
+    font-weight: 300;
+    line-height: 1.04;
+    color: #fff;
+}
+
+nav {
+    margin-top: 159px;
 }
