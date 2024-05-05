@@ -1,0 +1,35 @@
+*{
+    font-family: "Josefin Sans", sans-serif;
+    font-family: "Alata", sans-serif;
+}
+
+header {
+    background-image: url("./images/mobile/image-hero.jpg");
+    padding: 40px 24px 222px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.logo {
+    width: 144px;
+}
+
+.head {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.h1-div {
+    margin-top: 163px;
+    padding: 26px 24px 24px;
+    border: solid 2px #fff;
+}
+
+h1 {
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 40px;
+    font-weight: 300;
+    line-height: 0.95;
+    color: #fff;
+}
