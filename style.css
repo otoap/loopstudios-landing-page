@@ -244,3 +244,62 @@ span {
     color: #fff;
   
 }
+
+.desktop-header-nav {
+    display: none;
+}
+
+@media (min-width:1440px) {
+    header {
+        padding: 64px 165px 146px;
+        background-image: url("./images/desktop/image-hero.jpg");
+    }
+
+    .mobile-menu {
+        display: none;
+    }
+
+    .desktop-header-nav {
+        display: inline-block;
+        margin-top: 0;
+    }
+
+    .desktop-header-nav ul {
+        flex-direction: row;
+        gap: 32px;
+    }
+
+    .desktop-header-nav li {
+        font-family: "Alata", sans-serif;
+        font-size: 15px;
+        line-height: 1.67;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 10px;
+        cursor: pointer;
+    }
+
+    .h1-div {
+        width: 60%;
+        padding: 40px;
+        border: solid 2px #fff;
+    }
+
+    h1 {
+        font-size: 72px;
+    }
+
+    .desktop-header-nav li:hover::after {
+        content: "";
+        position: absolute;
+        width: 24px;
+        height: 2px;
+        background-color: white;
+        transform: translateY(30px);
+        
+    }
+
+
+    
+}
