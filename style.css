@@ -334,6 +334,7 @@ span {
     h2 {
         text-align: start;
         font-size: 48px;
+        padding-top: 0;
     }
 
     p {
@@ -367,6 +368,7 @@ span {
         max-width: 165px;
         justify-self: end;
         cursor: pointer;
+        margin-top: 0;
     }
 
     button:hover {
